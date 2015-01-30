@@ -5,6 +5,9 @@ package com.bakery.beans;
 public class Login {
 private String userName;
 private String password;
+ public Login(){
+ 
+ }
 
     public String getPassword() {
         return password;
@@ -23,5 +26,6 @@ private String password;
     public void setUserName(String userName) {
         this.userName = userName;
     }
+    
 }
 
