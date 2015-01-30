@@ -20,6 +20,11 @@ private String itemMfd="Item MFD";
 private String Quantity="Quantity";
 private String Status="Stauus";
 
+public Display()
+{
+
+}
+
 	
     public String getitemCode() {
         return itemCode;
